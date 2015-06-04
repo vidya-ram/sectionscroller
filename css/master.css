@@ -1,0 +1,77 @@
+/* Essential for plugin */
+.scroller{
+	position:fixed; 
+	right:20px; 
+	bottom:20px; 
+	z-index: 998;
+}
+.scroller div{cursor:pointer;}
+#arrow_up,#arrow_down{display:none;}
+.arrow{
+	margin:20px 0 0; 
+	width:40px; 
+	height:40px; 
+	border:2px solid #dab855; 
+	border-radius:5px; 
+	text-align:center;
+	position:relative;
+}
+.arrow-down{
+	margin:20px 0px; 
+}
+
+.arrow img{
+	position:absolute;
+	top:35%;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+/* Styles for this example */
+body{
+	padding-top: 50px;
+}
+h1{
+	margin:0 0 10px;
+}
+section{
+	padding:20px;
+	text-align:center;
+}
+#section1{
+	height:700px;
+	background-color:#396;
+}
+#section2{
+		height:750px;
+	background-color:#60F;
+}
+#section3{
+		height:610px;
+	background-color:#93F;
+}
+#section4{
+		height:570px;
+	background-color:#396;
+}
+#section5{
+		height:700px;
+	background-color:#C9C;
+}
+#section6{
+		height:720px;
+	background-color:#993;
+}
+#section7{
+		height:580px;
+	background-color:#FF3;
+}
+footer{
+	padding: 15px 0;
+}
+footer p{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
